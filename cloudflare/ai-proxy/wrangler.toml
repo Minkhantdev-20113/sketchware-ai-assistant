@@ -1,0 +1,15 @@
+name = "sketchware-ai-proxy"
+main = "src/index.ts"
+compatibility_date = "2024-08-01"
+
+# Deploy:
+#   cd cloudflare/ai-proxy
+#   npm install
+#   npx wrangler secret put OPENROUTER_API_KEY
+#   npx wrangler secret put GEMINI_API_KEY
+#   npx wrangler secret put DEEPSEEK_API_KEY
+#   npx wrangler secret put GROQ_API_KEY
+#   npm run deploy
+#
+# Then set in the Next.js .env.local:
+#   CLOUDFLARE_AI_PROXY_URL=https://sketchware-ai-proxy.<your-subdomain>.workers.dev
